@@ -1,0 +1,45 @@
+{
+    "issuer": "lu.ma",
+    "desc": "Explore popular events near you, browse by category, or check out some of the great community calendars.",
+    "website": "https://lu.ma/wu69w42t?tk=36DexZ",
+    "APIs": [
+        {
+            "host": "api.lu.ma",
+            "intercept": {
+                "url": "url",
+                "method": "GET",
+                "query": [
+                    {
+                        "url": "wu69w42t",
+                        "verify": true
+                    },
+                    {
+                        "referring_ticket_key": "36DexZ",
+                        "verify": true
+                    }
+                ]
+            },
+            "assert": [
+                {
+                    "key": "data|guest_data|approval_status",
+                    "value": "null",
+                    "operation": "!="
+                },
+                {
+                    "key": "data|guest_data|approval_status",
+                    "value": "approved",
+                    "operation": "="
+                }
+            ],
+            "nullifier": "data|api_id"
+        }
+    ],
+    "HRCondition": [
+        "User has attended lu.ma event"
+    ],
+    "tips": {
+        "message": "When you successfully log in, please click the 'Start' button to initiate the verification process."
+    },
+    "category": "Social",
+    "id": "0xa9b7a62043a2485cac24ebfe0f03df9a"
+}

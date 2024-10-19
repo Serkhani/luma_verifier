@@ -27,9 +27,7 @@ zkPass generates a zero-knowledge proof based on the event attendance data retri
 The participant submits the zkProof to the verifier (event organizers, bounty distributors, or reward providers), allowing them to confirm event participation without accessing any private information.
 
 4. Verification Result
-The verifier receives and evaluates the zkProof, confirming the participant's attendance at the event. 
-
-
+The verifier receives and evaluates the zkProof, confirming the participant's attendance at the event.
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License`
