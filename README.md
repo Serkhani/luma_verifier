@@ -28,6 +28,8 @@ The participant submits the zkProof to the verifier (event organizers, bounty di
 
 4. Verification Result
 The verifier receives and evaluates the zkProof, confirming the participant's attendance at the event.
+# Video
+https://github.com/user-attachments/assets/1fd30127-7561-4ef0-ab5b-d8945f1adc78
 # Schema
 
 ```json
